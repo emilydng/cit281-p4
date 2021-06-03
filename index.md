@@ -73,7 +73,7 @@ p4-server.js
         .code(200)
         .header("Content-Type", "application/json; charset=utf-8")
         .send(p4.getQuestionAnswer(request.params.number));
-    });
+   });
 
   // Route: *
   fastify.get("*", (request, reply) => {
@@ -81,7 +81,7 @@ p4-server.js
         .code(404)
         .header("Content-Type", "text/html; charset=utf-8")
         .send("<h1>Route not found</h1>");
-    });
+   });
 
   // Extra Credit: Add support for POST
   fastify.post("/cit/students/add", (request, reply) => {

@@ -3,7 +3,7 @@
 ``` markdown
 Goals and Outcomes
 
-   - Gain experience interpreting functional descriptions and specifications to complete an assignment
+  - Gain experience interpreting functional descriptions and specifications to complete an assignment
   - Gain experience breaking a project into manageable components
   - Gain experience writing and executing non-web server Node.js JavaScript code using VSCode
   - Practice creating and using code modules
